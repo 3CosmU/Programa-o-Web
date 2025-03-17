@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+   
+header {
+    background-color: #c7c5c5;
+    padding: 20px;
+    text-align: center;
+}
+   
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+   
+header p {
+    font-size: 18px;
+    color: #661111;
+}
+   
+#produto {
+    padding: 20px;
+}
+   
+#produto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+   
+#produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+   
+#equipe {
+    padding: 20px;
+}
+   
+#equipe h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+   
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+   
+.equipe img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+   
+.equipe h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+   
+#inscricao {
+    padding: 20px;
+}
+   
+#inscricao h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+   
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+   
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+   
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #661111;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #550e0e;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #661111;
+    outline: none;
+}
